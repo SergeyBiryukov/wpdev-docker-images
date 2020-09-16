@@ -178,7 +178,7 @@ $php_versions = array(
 		'php' => array(
 			'base_name'       => 'devilbox/php-fpm-8.0:latest',
 			'apt'             => array( 'unzip', 'sudo', 'rsync' ),
-			'extensions'      => array( 'mysqli' ),
+			'extensions'      => array( 'gd', 'opcache', 'mysqli', 'zip', 'exif', 'intl', 'mbstring', 'xml', 'xsl' ),
 			'pecl_extensions' => array(),
 			'composer'        => true,
 		),
